@@ -1,3 +1,3 @@
 def alphabetize(arr)
-  # code here
-end
+  arr.sort_by{|string| string.split('').map {|letter| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".index(letter)}}# code here
+  end
